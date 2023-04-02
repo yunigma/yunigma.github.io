@@ -23,13 +23,13 @@ author: Iuliia Nigmatulina
 
 navbar-links:
   CV: "cv"
-  Projects: "projects"
-  Publications: "publications"
-  Blogs: "blogs"
-  Contact: "contact"
+  #Projects: "projects"
+  #Publications: "publications"
+  #Blogs: "blogs"
+  #Contact: "contact"
 
 # NOTE: Replacing this next line with your own URL
-production_url : https://yunigma.github.io
+production_url: https://yunigma.github.io
 
 ################
 # --- Logo --- #
@@ -37,7 +37,7 @@ production_url : https://yunigma.github.io
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/portrait.jpeg"
+avatar: "./assets/img/portrait.jpeg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -54,7 +54,7 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  #rss: true  # remove this line if you don't want to show an RSS link at the bottom
   github: "yunigma"
   # flickr: 
   # email: "someone@example.com"
@@ -64,7 +64,7 @@ social-network-links:
   # youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
- linkedin: "yulia-nigmatulina-03386a1b"
+  linkedin: "yulia-nigmatulina-03386a1b"
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -82,11 +82,11 @@ social-network-links:
 #  discord: invite/invite_code or users/userid 
 #  kaggle: yourname
 #  hackerrank: yourname
-google-scholar: "citations?user=5BwrVLIAAAAJ&hl=en"
+  google-scholar: "citations?user=5BwrVLIAAAAJ&hl=en"
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is my platform
+#rss-description: This website is my platform
 
 ###########################
 # --- General options --- #
