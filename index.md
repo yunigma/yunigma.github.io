@@ -14,7 +14,8 @@ My Research Interests:
 - Contextual adaptation and Customisation
 - ASR for assisting Air-Traffic communication
 
-You can find my CV: <a href="https://github.com/yunigma/yunigma.github.io/tree/master/docs/CV_jul_github.pdf?raw=1">here</a> (last update: April 2023)
+You can find my CV: <a href="https://github.com/yunigma/yunigma.github.io/blob/master/docs/CV_jul_github.pdf">here</a> (last update: April 2023)
 
-Since a long time Iuliia is interested in spontaneous speech phenomena, speech analysis and speech technologies with the focus on speech recognition. She worked as a research assistant at the University of Saint-Petersburg (Speech Modelling laboratory), later at the University of Zurich (Phonetics laboratory); read courses “Introduction in general Phonetics” and “Methods of speech analysis” (Saint Petersburg State University of Aerospace and Instrumentation); did internships at SpinningBytes AG (NLP; Zurich) and Idiap (Speech and Audio Processing group; Martigny).
-Iuliia is now a PhD student at University of Zurich and works as research assistant in the "Speech and Audio Processing'' group at Idiap. Iuliia works on the improvement of ASR with contextual data (keywords, knowledge from the previous and current context) and biasing technologies in ASR bridging ASR and NLP.
+Since a long time I am interested in spontaneous speech phenomena, speech analysis and speech technologies with the focus on speech recognition. I worked as a research assistant at the University of Saint-Petersburg (Speech Modelling laboratory), later at the University of Zurich (Phonetics laboratory); read courses “Introduction in general Phonetics” and “Methods of speech analysis” (Saint Petersburg State University of Aerospace and Instrumentation); did internships at SpinningBytes AG (NLP; Zurich) and Idiap (Speech and Audio Processing group; Martigny).
+
+Now I am a PhD student at the University of Zurich and work as research assistant in the "Speech and Audio Processing'' group at Idiap. I work on the improvement of ASR with contextual data (keywords, knowledge from the previous and current context) and biasing technologies in ASR bridging ASR and NLP.
