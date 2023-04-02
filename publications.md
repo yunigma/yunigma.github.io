@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Publications
 subtitle: My published research work 
 ---
