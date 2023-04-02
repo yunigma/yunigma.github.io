@@ -23,10 +23,10 @@ author: Iuliia Nigmatulina
 
 navbar-links:
   CV: "cv"
-  #Projects: "projects"
-  #Publications: "publications"
+  Projects: "projects"
+  Publications: "publications"
   #Blogs: "blogs"
-  #Contact: "contact"
+  Contact: "contact"
 
 # NOTE: Replacing this next line with your own URL
 production_url: https://yunigma.github.io
