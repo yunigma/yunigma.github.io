@@ -20,4 +20,4 @@ My Research Interests:
 
 <br />
 <br />
-You can find my CV: ...
+You can find my CV: <a href="https://github.com/yunigma/yunigma.github.io/tree/master/docs/CV_jul_github.pdf?raw=1">here</a> (last update: April 2023)
