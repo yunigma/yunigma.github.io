@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Data preparation
 description: This page is reserved for my 1st BLOG.
 ---
