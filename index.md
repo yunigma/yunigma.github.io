@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Hello, I am Iuliia Nigmatulina
+title: Hello, I am Iuliia Thorbecke (Nigmatulina)
 tagline: Personal website
 description: My personal website with CV and projects
 cover-img: [ "assets/img/ocean.jpeg" ]
