@@ -7,6 +7,10 @@ Check out my [Google Scholar](https://scholar.google.ch/citations?user=5BwrVLIAA
 
 #### Selected presentations and publications
 
+Bhattacharjee, M., **Nigmatulina, I**., Prasad, A., Rangappa, P., Madikeri, S., Motlicek, P., ... & Kleinert, M. (2024, April). Contextual Biasing Methods for Improving Rare Word Detection in Automatic Speech Recognition. In ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 12652-12656). IEEE.
+
+**Nigmatulina, I**., Madikeri S., Villatoro-Tello E., Motlicek P., Zuluaga-Gomez J., Pandia K., Ganapathiraju A. Implementing contextual biasing in GPU decoder for online ASR. Proc. Interspeech 2023.
+
 **Nigmatulina, I**., Zuluaga-Gomez, J., Prasad, A., Sarfjoo, S. S., & Motlicek, P. (2022, May). A two-step approach to leverage contextual data: speech recognition in air-traffic communications. In ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 6282-6286). IEEE.
 
 Zuluaga-Gomez, J., **Nigmatulina, I**., Prasad, A., Motlicek, P., Veselý, K., Kocour, M., & Szöke, I. (2021). Contextual semi-supervised learning: An approach to leverage air-surveillance and untranscribed ATC data in ASR systems. arXiv preprint arXiv:2104.03643.
