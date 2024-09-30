@@ -13,7 +13,7 @@ Bhattacharjee, M., **Nigmatulina, I**., Prasad, A., Rangappa, P., Madikeri, S., 
 
 **Nigmatulina, I**., Zuluaga-Gomez, J., Prasad, A., Sarfjoo, S. S., & Motlicek, P. (2022, May). A two-step approach to leverage contextual data: speech recognition in air-traffic communications. In ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 6282-6286). IEEE.
 
-Zuluaga-Gomez, J., **Nigmatulina, I**., Prasad, A., Motlicek, P., Veselý, K., Kocour, M., & Szöke, I. (2021). Contextual semi-supervised learning: An approach to leverage air-surveillance and untranscribed ATC data in ASR systems. arXiv preprint arXiv:2104.03643.
+Zuluaga-Gomez, J., **Nigmatulina, I**., Prasad, A., Motlicek, P., Veselý, K., Kocour, M., & Szöke, I. (2021). Contextual semi-supervised learning: An approach to leverage air-surveillance and untranscribed ATC data in ASR systems. Proc. Interspeech 2021.
 
 **Nigmatulina, I**., Braun, R., Zuluaga-Gomez, J., & Motlicek, P. (2021). Improving callsign recognition with air-surveillance data in air-traffic communication. arXiv preprint arXiv:2108.12156.
 

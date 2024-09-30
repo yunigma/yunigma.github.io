@@ -38,7 +38,7 @@ title: Projects
 <br />
 
 <p align="justify">
-<i class="fas fa-university"></i> Project on sentiment inference and stance detection (participating as a student assistant).</a>), University of Zurich, Switzerland, 2019
+<i class="fas fa-university"></i> Project on sentiment inference and stance detection (participating as a student assistant), University of Zurich, Switzerland, 2019
 <br />   
 </p>
 
@@ -52,14 +52,14 @@ title: Projects
 <br />
 
 <p align="justify">
-<i class="fas fa-university"></i> Role of pitch in the preservation of unity of “broken” discourse units in spontaneous speech.</a>), Saint-Petersburg, Russia, 2014-2016
+<i class="fas fa-university"></i> Role of pitch in the preservation of unity of “broken” discourse units in spontaneous speech), Saint-Petersburg, Russia, 2014-2016
 <br />   
 </p>
 
 <br />
 
 <p align="justify">
-<i class="fas fa-university"></i> Recognition of ambiguous fragments of speech signal (evidence from spontaneous Russian).</a>), Saint-Petersburg, Russia, 2012-2014
+<i class="fas fa-university"></i> Recognition of ambiguous fragments of speech signal (evidence from spontaneous Russian), Saint-Petersburg, Russia, 2012-2014
 <br />   
 </p>
 
