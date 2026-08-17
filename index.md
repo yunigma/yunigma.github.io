@@ -16,7 +16,7 @@ My Research Interests:
 - ASR for low-resource languages (Swiss German)
 - Phonetics (acoustic analysis)
 
-You can find my CV: <a href="https://github.com/yunigma/yunigma.github.io/blob/master/docs/cv_jul_github.pdf">here</a> (last update: July 2026)
+You can find my CV: <a href="https://github.com/yunigma/yunigma.github.io/blob/master/docs/cv_github.pdf">here</a> (last update: July 2026)
 
 Since a long time I have been interested in spontaneous speech phenomena, speech analysis, and speech technologies with the focus on speech recognition. Driven by a long-standing interest in signal processing and NLP, I have built a broad skill set across multiple areas of speech technologies and computational linguistics.
 
