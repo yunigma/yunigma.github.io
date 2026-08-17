@@ -6,16 +6,25 @@ title: Projects
 
 <font size="3.5">
 <p align="justify">
-<i class="fas fa-university"></i> Ph.D. in Computational Linguistics and Speech Technologies at the University of Zurich, Switzerland, 2021-present
+<i class="fa fa-cogs" aria-hidden="true"></i> May 2026-present: <a href="https://github.com/yunigma/evalASR"><b>EvalASR</b></a>
 <br />
-<i class="fas fa-book-open"></i> Thesis: Bridging ASR and NLU (contextualisation and personalisation of ASR)
+<i>A fast python package to evaluate ASR predictions. Besides the WER/SER/CER metrics, includes evaluation on entities and OOV words (recal/precision/F1), SemanticDistant, MER/WIL/WIP, and multiple visualisations</i>
 </p>
    
 <br />
 
 <p align="justify">
-<i class="fas fa-university"></i> Automatic speech recognition to improve the productivity of call centers (collaboration with Uniphore), IDIAP, Switzerland, 2022-present
+<i class="fa-solid fa-graduation-cap"></i> 2021-2026: Ph.D. thesis: <a href="https://www.zora.uzh.ch/server/api/core/bitstreams/2358a121-86b6-443a-a952-12c85cf69441/content?trackerId=5a0c8612ba446f25">Contextualisation of Automatic Speech Recognition and Related Applications</a>
 <br />
+<i class="fas fa-university"></i> University of Zurich, Switzerland
+</p>
+   
+<br />
+
+<p align="justify">
+<i class="fa fa-cogs" aria-hidden="true"></i> 2022-2025: <b>Call Center ASR</b> (collaboration with Uniphore), IDIAP, Switzerland
+<br />
+<i>Contributed to production-oriented ASR systems for call center applications, focusing on scalability, domain adaptation, and robustness to real-world variability</i>
 </p>
 
 <!-- <a class="btn btn-outline-success"><i class="fas fa-book-open" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp; ThesisR</a> -->
@@ -23,8 +32,9 @@ title: Projects
 <br />
 
 <p align="justify">
-<i class="fas fa-university"></i> Automatic speech recognition and information extraction for assisting Air Traffic Controllers (<a href="https://www.dlr.de/en/media/publications/magazines/all-digital-magazines/dlrmagazine-172/a-mutual-understanding">collaboration with DLR and Fraport</a>), IDIAP, Switzerland, 2020-2022
+<i class="fa-solid fa-file-lines"></i> 2020-2022: <b>Air-Traffic ASR</b> (<a href="https://www.dlr.de/en/media/publications/magazines/all-digital-magazines/dlrmagazine-172/a-mutual-understanding">collaboration with DLR and Fraport</a>), IDIAP, Switzerland
 <br />
+<i>Developed streaming ASR systems for air-traffic communication achieving WER below 5% in noisy, safety-critical environments</i>
 </p>
 
 <br />

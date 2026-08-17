@@ -25,8 +25,9 @@ navbar-links:
   CV: "cv"
   Projects: "projects"
   Publications: "publications"
-  #Blogs: "blogs"
-  Contact: "contact"
+  # Blogs: "blogs"
+  # News: "news"
+  # Contact: "contact"
 
 # NOTE: Replacing this next line with your own URL
 production_url: https://yunigma.github.io
