@@ -21,7 +21,7 @@ There are three core functions in relation with RAG vector database and in this 
 = vector embeddings with metadata.The vector is generated from some piece of text (or other data), but that piece does not have to be a whole document. In practice, RAG systems usually split documents into chunks, and generate **one embedding vector per chunk**.
 
 Think of the pipeline like this:
-<img src="./assets/img/vector_db/vector_DB_chunks.png">
+<img src="../assets/img/vector_db/vector_DB_chunks.png">
 
 Suppose there is a document:
 
