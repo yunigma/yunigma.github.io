@@ -8,7 +8,7 @@ share-img: /assets/img/vector_db/vector_database.png
 tags: [vector databases, retrieval-augmented generation (RAG), embeddings, databases for LLM]
 ---
 
-A RAG vector database is a specialised storage system designed to help AI **retrieve information based on semantic meaning** rather than relying solely on keyword matching. Vector databases have become increasingly important in AI applications because they store information as **numerical vectors** that capture semantic relationships, enabling machine learning models to efficiently perform similarity searches and retrieve relevant information.
+A vector database for Retrieval-Augmented Generation (RAG) is a specialised storage system designed to help AI **retrieve information based on semantic meaning** rather than relying solely on keyword matching. Vector databases have become increasingly important in AI applications because they store information as **numerical vectors** that capture semantic relationships, enabling machine learning models to efficiently perform similarity searches and retrieve relevant information.
 
 There are three core functions in relation with RAG vector database and in this post I will speak in a more detail about each of them:
 - Vector storage
