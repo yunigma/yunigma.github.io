@@ -18,7 +18,7 @@ There are three core functions in relation with RAG vector database and in this 
 
 **VECTOR STORAGE**
 
-= vector embeddings with metadata.The vector is generated from some piece of text (or other data), but that piece does not have to be a whole document. In practice, RAG systems usually split documents into chunks, and generate **one embedding vector per chunk**.
+= vector embeddings with metadata. The vector is generated from some piece of text (or other data), but that piece does not have to be a whole document. In practice, RAG systems usually split documents into chunks, and generate **one embedding vector per chunk**.
 
 Think of the pipeline like this:
 <img src="../assets/img/vector_db/vector_DB_chunks.png" width="75%">
@@ -41,11 +41,11 @@ The embedding model takes each chunk as input:
 That array of numbers is the **embedding vector**. The vector isn't manually created by the RAG developer. It's produced by an **embedding model**, which has been trained to map semantically related pieces of information to nearby locations in a high-dimensional mathematical space.
 
 There's no universal chunk size. Chunks can be of ~200–1,000 tokens, sometimes with overlap between neighbouring chunks. For example, *"apple"* VS *"Apple released a new MacBook yesterday."*
-The second contains contextual information that is useful for retrieval. A sentence or paragraph gives the embedding model much more semantic context. So typically:
-<img src="../assets/img/vector_db/vector_DB_metadata.png">
+The second contains contextual information that is useful for retrieval. A sentence or paragraph gives the embedding model much more semantic context.
+<!-- So typically: -->
 
 **Important:** the original text is stored separately alongside the vector. Thus, typical RAG system looks like this:
-
+<img src="../assets/img/vector_db/vector_DB_metadata.png">
 
 Where embeddings are created for finding information efficiently and original text is kept for giving information to the LLM.
 
