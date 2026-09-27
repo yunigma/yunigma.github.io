@@ -21,7 +21,7 @@ There are three core functions in relation with RAG vector database and in this 
 = vector embeddings with metadata.The vector is generated from some piece of text (or other data), but that piece does not have to be a whole document. In practice, RAG systems usually split documents into chunks, and generate **one embedding vector per chunk**.
 
 Think of the pipeline like this:
-<img src="../assets/img/vector_db/vector_DB_chunks.png" width="75%>
+<img src="../assets/img/vector_db/vector_DB_chunks.png" width="75%">
 
 Suppose there is a document:
 
@@ -53,7 +53,6 @@ Where embeddings are created for finding information efficiently and original te
 **OPTIMIZATION: VECTOR INDEXING**
 Vector indexing transforms vectors into data structures that allow faster similarity or distance searches. Typically, **approximate nearest-neighbour (ANN) search** methods are used to avoid computing similarity between all the vectors every time when a query comes.
 One of the most widely used ANN algorithms is **Hierarchical Navigable Small World (HNSW)**. HNSW is an index that is built and maintained as the vector collection changes. HNSW builds a hierarchical, multi-layer graph where every vector exists at the bottom layer, while a progressively smaller subset of vectors is promoted to higher layers to provide long-range navigation:
-
 <img src="../assets/img/vector_db/hnsw.png" width="60%">
 
 How does HNSW choose which nodes go into upper layers? **Nodes are assigned to levels probabilistically**. When a vector is inserted, HNSW essentially randomly determines how high that vector will appear in the hierarchy. Every node exists at **level 0**, but only some nodes are promoted to level 1, fewer to level 2, fewer still to level 3, etc.The important thing is that the upper layers aren't deliberately selected because they are "important" or "central" vectors.
@@ -63,7 +62,6 @@ How does HNSW choose which nodes go into upper layers? **Nodes are assigned to l
 When the user submits a query, it is converted into a vector and used to perform a similarity search to identify the most relevant documents or chunks. HNSW significantly optimises this search by exploring only a subset of the available vectors rather than comparing the query against every vector in the database. This greatly reduces the number of distance calculations and is particularly important when working with large vector databases.
 
 The HNSW algorithm starts its search at the top layer, where it compares the query vector with the current node and its neighbouring nodes. It then moves toward increasingly closer candidates and, once the search at that layer is complete, descends to the next layer, continuing the search from the best candidate found so far and exploring its neighbours. This process is repeated until the algorithm reaches the bottom layer, where it performs a more detailed search among the nearest candidates:
-
 <img src="../assets/img/vector_db/hnsw_alg.gif">
 
 The query vector is compared to the database vectors either by calculating their similarity or with a distance metric. The choice of the metric for a RAG vector database depends entirely on the embedding model used to create the text vectors: **the vector database metric should match to the metric the embedding model was trained on**.
