@@ -21,7 +21,7 @@ There are three core functions in relation with RAG vector database and in this 
 = vector embeddings with metadata.The vector is generated from some piece of text (or other data), but that piece does not have to be a whole document. In practice, RAG systems usually split documents into chunks, and generate **one embedding vector per chunk**.
 
 Think of the pipeline like this:
-<img src="../assets/img/vector_db/vector_DB_chunks.png">
+<img src="../assets/img/vector_db/vector_DB_chunks.png" width="75%>
 
 Suppose there is a document:
 
@@ -36,16 +36,16 @@ One can generate a single vector for the entire document. But that's usually not
 <code>[Employees receive 25 days of paid vacation per year]. [Vacation requests must be submitted at least two weeks in advance]. [Managers are responsible for approving requests].</code>
 
 The embedding model takes each chunk as input:
-<img src="../assets/img/vector_db/vector_DB_metadata.png">
+<img src="../assets/img/vector_db/vector_DB_chunks_example.png" width="85%">
 
 That array of numbers is the **embedding vector**. The vector isn't manually created by the RAG developer. It's produced by an **embedding model**, which has been trained to map semantically related pieces of information to nearby locations in a high-dimensional mathematical space.
 
 There's no universal chunk size. Chunks can be of ~200–1,000 tokens, sometimes with overlap between neighbouring chunks. For example, *"apple"* VS *"Apple released a new MacBook yesterday."*
 The second contains contextual information that is useful for retrieval. A sentence or paragraph gives the embedding model much more semantic context. So typically:
-
+<img src="../assets/img/vector_db/vector_DB_metadata.png">
 
 **Important:** the original text is stored separately alongside the vector. Thus, typical RAG system looks like this:
-<img src="../assets/img/vector_db/vector_DB_chunks_example.png">
+
 
 Where embeddings are created for finding information efficiently and original text is kept for giving information to the LLM.
 
@@ -54,7 +54,7 @@ Where embeddings are created for finding information efficiently and original te
 Vector indexing transforms vectors into data structures that allow faster similarity or distance searches. Typically, **approximate nearest-neighbour (ANN) search** methods are used to avoid computing similarity between all the vectors every time when a query comes.
 One of the most widely used ANN algorithms is **Hierarchical Navigable Small World (HNSW)**. HNSW is an index that is built and maintained as the vector collection changes. HNSW builds a hierarchical, multi-layer graph where every vector exists at the bottom layer, while a progressively smaller subset of vectors is promoted to higher layers to provide long-range navigation:
 
-<img src="../assets/img/vector_db/hnsw.png">
+<img src="../assets/img/vector_db/hnsw.png" width="60%">
 
 How does HNSW choose which nodes go into upper layers? **Nodes are assigned to levels probabilistically**. When a vector is inserted, HNSW essentially randomly determines how high that vector will appear in the hierarchy. Every node exists at **level 0**, but only some nodes are promoted to level 1, fewer to level 2, fewer still to level 3, etc.The important thing is that the upper layers aren't deliberately selected because they are "important" or "central" vectors.
 
