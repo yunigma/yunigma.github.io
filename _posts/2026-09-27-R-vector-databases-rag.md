@@ -44,7 +44,15 @@ That array of numbers is the **embedding vector**. The vector isn't manually cre
 
 There's no universal chunk size. Chunks can be of ~200–1,000 tokens, sometimes with overlap between neighbouring chunks. For example, *"apple"* VS *"Apple released a new MacBook yesterday."*
 The second contains contextual information that is useful for retrieval. A sentence or paragraph gives the embedding model much more semantic context.
-<!-- So typically: -->
+So typically:
+
+| Chunk size               | Typical RAG use                    |
+|--------------------------|------------------------------------|
+| Individual word          | Rarely useful                      |
+| Sentence                 | Sometimes                          |
+| Paragraph                | Common                             |
+| Several paragraphs       | Very common                        |
+| Whole document           | Sometimes, but often too coarse    |
 
 **Important:** the original text is stored separately alongside the vector. Thus, typical RAG system looks like this:
 
