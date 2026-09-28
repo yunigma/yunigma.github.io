@@ -1,7 +1,8 @@
 ---
 layout: page
 title: R basics and data visualisation
-description: This page is reserved for my 3d BLOG.
+permalink: /data-vis/
+# description: This page is reserved for my 3d BLOG.
 ---
 
 In fact, this is my first steps in learning R and I have created a separate blog to cover some basic terms like factors, data types, pipes, and a basic template for visualisation.

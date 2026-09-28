@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Interaction effects and Model fitting
-description: This page is reserved for my 7th BLOG.
+permalink: /model-fitting/
+# description: This page is reserved for my 7th BLOG.
 ---
 
 ### 1. Interaction

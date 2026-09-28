@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Linear models
-description: This page is reserved for my 2d BLOG.
+permalink: /linear-models/
+# description: This page is reserved for my 2d BLOG.
 ---
 
 #### 1. Formulating the model

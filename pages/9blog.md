@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Aggregation and summarizing
-description: This page is reserved for my 9th BLOG.
+permalink: /agg-sum/
+# description: This page is reserved for my 9th BLOG.
 ---
 
 ### Aggregation and summarizing

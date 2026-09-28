@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Data transformation and wrangling 1
-description: This page is reserved for my 6th BLOG.
+permalink: /data-transform/
+# description: This page is reserved for my 6th BLOG.
 ---
 
 ### Data transformation and wrangling 1

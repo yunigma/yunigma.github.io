@@ -5,7 +5,7 @@ permalink: /data-prep/
 # description: This page is reserved for my 1st BLOG.
 ---
 
-:shipit:
+<!-- :shipit: -->
 
 ### 1. Read the data
 My first blog is about the start operations to open and get the data:

@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Dates and times
-description: This page is reserved for my 5th BLOG.
+permalink: /dates-times/
+# description: This page is reserved for my 5th BLOG.
 ---
 
 ### Dates and times
