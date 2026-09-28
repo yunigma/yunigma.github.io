@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: post
 title: Data preparation
-description: This page is reserved for my 1st BLOG.
+# description: This page is reserved for my 1st BLOG.
 ---
 
 :shipit:
