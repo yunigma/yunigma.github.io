@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Data preparation
+permalink: /data-prep/
 # description: This page is reserved for my 1st BLOG.
 ---
 
