@@ -11,8 +11,8 @@ tags: [datascience r]
 - **R for Data Science:** <https://r4ds.had.co.nz/>
 - **R cheatsheets:** <https://www.rstudio.com/resources/cheatsheets/>
 
-- [1. Data preparation](https://github.com/yunigma/yunigma.github.io/blob/master/_pages/1blog.md)
-- [2. Linear models](../_pages/2blog.md)
+- [1. Data preparation](../_pages/1blog.html)
+- [2. Linear models]({% link ../_pages/2blog.md %})
 - [3. R basics and visualisation](../_pages/3blog.md)
 - [4. R playing around with a language corpus](../_pages/4blog.md)
 - [5. Dates and times](../_pages/5blog.md)
