@@ -12,11 +12,11 @@ tags: [datascience r]
 - **R cheatsheets:** <https://www.rstudio.com/resources/cheatsheets/>
 
 - [1. Data preparation](../pages/1blog.html)
-- [2. Linear models]({% link pages/2blog.md %})
+- [2. Linear models](pages/2blog.html)
 - [3. R basics and visualisation](pages/3blog.html)
 - [4. R playing around with a language corpus](pages/4blog.md)
 - [5. Dates and times](../pages/5blog.md)
-- [6. Data transformation and wrangling 1]({% link ../pages/6blog.md %})
-- [7. Interaction effects and Model fitting](../_pages/7blog.md)
-- [8. Data transformation and wrangling 2](../_pages/8blog.md)
-- [9. Aggregation and summarizing](../_pages/9blog.md)
+- [6. Data transformation and wrangling 1]({pages/6blog.md)
+- [7. Interaction effects and Model fitting](../pages/7blog.md)
+- [8. Data transformation and wrangling 2](../pages/8blog.md)
+- [9. Aggregation and summarizing](../pages/9blog.md)
