@@ -134,7 +134,7 @@ The Chartmaker Directory:
 <http://chartmaker.visualisingdata.com>
 
 
-### 5. Cheat sheet "BASICS"
+<!-- ### 5. Cheat sheet "BASICS"
 ![Picture](images/r_cheat_sheet_basics1.jpg)
 
-![Picture](images/r_cheat_sheet_basics2.jpg)
+![Picture](images/r_cheat_sheet_basics2.jpg) -->

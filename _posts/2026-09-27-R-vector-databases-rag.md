@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Vector databases for RAG
+comments: true
 subtitle: 
 cover-img: /assets/img/vector_db/vector_database.png
 thumbnail-img: /assets/img/vector_db/vector_database.png
