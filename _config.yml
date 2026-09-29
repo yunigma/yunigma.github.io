@@ -25,7 +25,7 @@ navbar-links:
   CV: "cv"
   Projects: "projects"
   Publications: "publications"
-  # Blogs: "blogs"
+  Blogs: "blogs"
   # News: "news"
   # Contact: "contact"
 
